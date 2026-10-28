@@ -32,7 +32,7 @@
                 </form>
             </details>
             <form th:action="@{/buku/{id}/hapus(id=${b.idBuku})}" method="post" style="display:inline">
-                <button type="submit" th:onclick="|return confirm('Hapus [[${b.judul}]]?')|">Hapus</button>
+                <button type="submit" onclick="return confirm('Hapus buku ini?')">Hapus</button>
             </form>
         </td>
     </tr>
