@@ -1,0 +1,12 @@
+target/
+*.jar
+*.class
+
+# Local IDE metadata
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Accidentally bundled JDK
+**/oracleJdk-*/
