@@ -31,4 +31,9 @@ public class Buku {
     public String getIdBuku() { return idBuku; }
     public String getJudul()  { return judul; }
     public int getStok()      { return stok; }
+
+    public void perbarui(String judul, int stok) {
+        this.judul = judul;
+        this.stok = stok;
+    }
 }
